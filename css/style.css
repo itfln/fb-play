@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding: 0;
+}
+/************play***********/
+.play-conbg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/play-bg.png");
+	/*background-size: 100%;*/
+}
+.score-board{
+	background-image: url("../img/scoreboard.png");
+	width: 280px;
+	height: 255px;
+	background-size: 100%;
+	margin-top: 30%;
+	text-align: center;
+	margin-left: calc(50% - 140px);
+	position: relative;
+}
+.score-board>.fl>.num{
+	position: absolute;
+    left: 42px;
+    bottom: 8px;
+    color: #fff;
+    font-size: 120px;
+}
+.score-board>.fr>.num{
+	position: absolute;
+    right: 42px;
+    bottom: 8px;
+    color: #fff;
+    font-size: 120px;
+}
+.goal{
+	background-image: url("../img/goal.png");
+	width: 750px;
+	height: 470px;
+	background-size: 100%;
+	margin-top:  calc(30% - 380px);
+	margin-left: calc(50% - 375px);
+	position: relative;
+}
+.football{
+	background-image: url("../img/football.png");
+	width: 200px;
+	height: 200px;
+	background-size: 100%;
+	margin-top:  calc(30% - 0px);
+	margin-left: calc(50% - 100px);
+	position: relative;
+}
